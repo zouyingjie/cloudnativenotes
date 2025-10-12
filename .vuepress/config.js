@@ -264,10 +264,10 @@ export default defineUserConfig({
           '/end/learn.md',
         ]
       },
-      {
-        text: '后记：那些平淡的一天',
-        link: '/end/dots.md',
-      },
+      // {
+      //   text: '后记：那些平淡的一天',
+      //   link: '/end/dots.md',
+      // },
     ],
   })
 });

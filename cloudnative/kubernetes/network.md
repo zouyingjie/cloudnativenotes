@@ -36,7 +36,7 @@ Netfilter 提供的 5 个 hook 分别是：
 
 Netfilter 允许在同一个 hook 处注册多个回调函数，在注册回调函数时必须提供明确的优先级，多个回调函数就像挂在同一个 hook 上的一串链条，触发时按照优先级从高到低进行激活，因此钩子触发的回调函数集合就被称为“回调链”（Chained Callback)。
 
-Linux 系统提供的许多网络能力，如数据包过滤、封包处理（设置标志位、修改 TTL等）、地址伪装、网络地址转换、透明代理、访问控制、基于协议类型的连接跟踪，带宽限速，等等，都是在 Netfilter 基础之上实现，比如 XTables 系列工具， iptables ，ip6tables 等都是基于 Netfilter 实现的。
+Linux 系统提供的许多网络能力，如数据包过滤、封包处理（设置标志位、修改 TTL等）、地址伪装、网络地址转换、透明代理、访问控制、[基于协议类型的连接跟踪(conntrack)](https://arthurchiao.art/blog/conntrack-design-and-implementation-zh/#1-%E5%BC%95%E8%A8%80)，带宽限速，等等，都是在 Netfilter 基础之上实现，比如 XTables 系列工具， iptables ，ip6tables 等都是基于 Netfilter 实现的。
 
 ### iptables
 
