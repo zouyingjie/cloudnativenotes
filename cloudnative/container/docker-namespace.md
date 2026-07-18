@@ -45,17 +45,13 @@ lrwxrwxrwx 1 root root 0 Mar  2 10:53 uts -> 'uts:[4026531838]'
 
 上面我们列出了每种 namespace 的系统调用参数，要对进程实现某个 namespace 的隔离，只需要修改已有进程或者在创建进程时指定对应的参数即可。这里主要涉及三个系统调用：
 
-- `setns`：将某个进程加入到某个已有 namespace。
-- `unshare`：将某个进程从某个类型的 namespace 移除，并加入到新的 namespace。
+- `setns`：将进程加入到某个已有 namespace。
+- `unshare`：将进程从某个 namespace 移除，并加入到新的 namespace。
 - `clone`：创建新进程，可以通过传递上述参数达到隔离效果。
-
-我们来分别看下这三个系统调用的使用。
 
 ### setns & unshare 系统调用
 
-这两个系统调用比较简单，我们用一段代码来演示下。
-
-首先我们利用 unshare 系统调用先创建一个新的 UTS namespace（隔离主机名）并设置新的主机名，然后通过 `setns` 将某个进程加入到该 namespace 中，在通过 `unshare` 将该进程从该 namespace 中移除。
+这两个系统调用比较简单，我们用一段代码来演示下。首先我们利用 unshare 系统调用创建一个新的 UTS namespace（隔离主机名）并设置新的主机名，然后通过 `setns` 将某个进程加入到该 namespace 中，在通过 `unshare` 将该进程从该 namespace 中移除。
 
 - unshare 代码
 

@@ -5,7 +5,10 @@
   "author": "zouyingjie",
   "license": "MIT",
   "scripts": {
+    "generate:toc": "node scripts/generate-toc.mjs",
+    "predev": "npm run generate:toc",
     "dev": "vuepress dev .",
+    "prebuild": "npm run generate:toc",
     "build": "vuepress build ."
   },
   "devDependencies": {

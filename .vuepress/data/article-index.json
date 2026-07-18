@@ -1,0 +1,1932 @@
+{
+  "totalWords": 144510,
+  "articleCount": 65,
+  "topicCount": 13,
+  "sections": [
+    {
+      "key": "0-通用设计",
+      "name": "通用设计",
+      "children": [
+        {
+          "type": "group",
+          "text": "数据建模",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "common-design/modeling/history.md",
+              "title": "DBMS 的演进",
+              "route": "/common-design/modeling/history.html",
+              "group": "common-design",
+              "words": 2552,
+              "order": 0,
+              "trail": [
+                "通用设计",
+                "数据建模"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/modeling/innodb.md",
+              "title": "InnoDB 工作原理",
+              "route": "/common-design/modeling/innodb.html",
+              "group": "common-design",
+              "words": 2738,
+              "order": 1,
+              "trail": [
+                "通用设计",
+                "数据建模"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/modeling/index.md",
+              "title": "索引设计与优化",
+              "route": "/common-design/modeling/index.html",
+              "group": "common-design",
+              "words": 2552,
+              "order": 2,
+              "trail": [
+                "通用设计",
+                "数据建模"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/modeling/newsql.md",
+              "title": "NewSQL 工作原理",
+              "route": "/common-design/modeling/newsql.html",
+              "group": "common-design",
+              "words": 2530,
+              "order": 3,
+              "trail": [
+                "通用设计",
+                "数据建模"
+              ],
+              "groupName": "通用设计"
+            }
+          ],
+          "articleCount": 4,
+          "words": 10372,
+          "firstRoute": "/common-design/modeling/history.html"
+        },
+        {
+          "type": "group",
+          "text": "API 设计",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "common-design/api/rest.md",
+              "title": "Web API 设计规范",
+              "route": "/common-design/api/rest.html",
+              "group": "common-design",
+              "words": 5537,
+              "order": 4,
+              "trail": [
+                "通用设计",
+                "API 设计"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/api/webapi.md",
+              "title": "API 路径设计哪家强",
+              "route": "/common-design/api/webapi.html",
+              "group": "common-design",
+              "words": 2954,
+              "order": 5,
+              "trail": [
+                "通用设计",
+                "API 设计"
+              ],
+              "groupName": "通用设计"
+            }
+          ],
+          "articleCount": 2,
+          "words": 8491,
+          "firstRoute": "/common-design/api/rest.html"
+        },
+        {
+          "type": "group",
+          "text": "软件测试",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "common-design/testing/unit-test.md",
+              "title": "单元测试",
+              "route": "/common-design/testing/unit-test.html",
+              "group": "common-design",
+              "words": 3259,
+              "order": 6,
+              "trail": [
+                "通用设计",
+                "软件测试"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/testing/function.md",
+              "title": "功能测试",
+              "route": "/common-design/testing/function.html",
+              "group": "common-design",
+              "words": 4,
+              "order": 7,
+              "trail": [
+                "通用设计",
+                "软件测试"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/testing/contract.md",
+              "title": "契约测试",
+              "route": "/common-design/testing/contract.html",
+              "group": "common-design",
+              "words": 4,
+              "order": 8,
+              "trail": [
+                "通用设计",
+                "软件测试"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/testing/load.md",
+              "title": "全链路压测",
+              "route": "/common-design/testing/load.html",
+              "group": "common-design",
+              "words": 5,
+              "order": 9,
+              "trail": [
+                "通用设计",
+                "软件测试"
+              ],
+              "groupName": "通用设计"
+            }
+          ],
+          "articleCount": 4,
+          "words": 3272,
+          "firstRoute": "/common-design/testing/unit-test.html"
+        },
+        {
+          "type": "group",
+          "text": "认证与授权",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "common-design/security/roadmap.md",
+              "title": "方案概览",
+              "route": "/common-design/security/roadmap.html",
+              "group": "common-design",
+              "words": 2930,
+              "order": 10,
+              "trail": [
+                "通用设计",
+                "认证与授权"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/security/auth.md",
+              "title": "身份认证",
+              "route": "/common-design/security/auth.html",
+              "group": "common-design",
+              "words": 2038,
+              "order": 11,
+              "trail": [
+                "通用设计",
+                "认证与授权"
+              ],
+              "groupName": "通用设计"
+            },
+            {
+              "type": "article",
+              "filePath": "common-design/security/permission.md",
+              "title": "授权管理",
+              "route": "/common-design/security/permission.html",
+              "group": "common-design",
+              "words": 2319,
+              "order": 12,
+              "trail": [
+                "通用设计",
+                "认证与授权"
+              ],
+              "groupName": "通用设计"
+            }
+          ],
+          "articleCount": 3,
+          "words": 7287,
+          "firstRoute": "/common-design/security/roadmap.html"
+        }
+      ],
+      "articleCount": 13,
+      "words": 29422,
+      "firstRoute": "/common-design/modeling/history.html"
+    },
+    {
+      "key": "1-分布式理论",
+      "name": "分布式理论",
+      "children": [
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/overview.md",
+          "title": "概述",
+          "route": "/distributed-system-theory/overview.html",
+          "group": "distributed-system-theory",
+          "words": 2,
+          "order": 13,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/sharding.md",
+          "title": "数据分区",
+          "route": "/distributed-system-theory/sharding.html",
+          "group": "distributed-system-theory",
+          "words": 4,
+          "order": 14,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/replication.md",
+          "title": "数据复制",
+          "route": "/distributed-system-theory/replication.html",
+          "group": "distributed-system-theory",
+          "words": 4,
+          "order": 15,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/transaction.md",
+          "title": "分布式事务",
+          "route": "/distributed-system-theory/transaction.html",
+          "group": "distributed-system-theory",
+          "words": 5,
+          "order": 16,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/clock.md",
+          "title": "分布式时钟",
+          "route": "/distributed-system-theory/clock.html",
+          "group": "distributed-system-theory",
+          "words": 5,
+          "order": 17,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-theory/consistency-consensus.md",
+          "title": "一致性与共识",
+          "route": "/distributed-system-theory/consistency-consensus.html",
+          "group": "distributed-system-theory",
+          "words": 6,
+          "order": 18,
+          "trail": [
+            "分布式理论"
+          ],
+          "groupName": "分布式理论"
+        }
+      ],
+      "articleCount": 6,
+      "words": 26,
+      "firstRoute": "/distributed-system-theory/overview.html"
+    },
+    {
+      "key": "2-分布式工程",
+      "name": "分布式工程",
+      "children": [
+        {
+          "type": "article",
+          "filePath": "distributed-system-engineering/uniqueid.md",
+          "title": "分布式 ID",
+          "route": "/distributed-system-engineering/uniqueid.html",
+          "group": "distributed-system-engineering",
+          "words": 1825,
+          "order": 19,
+          "trail": [
+            "分布式工程"
+          ],
+          "groupName": "分布式工程"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-engineering/lock.md",
+          "title": "分布式锁",
+          "route": "/distributed-system-engineering/lock.html",
+          "group": "distributed-system-engineering",
+          "words": 2904,
+          "order": 20,
+          "trail": [
+            "分布式工程"
+          ],
+          "groupName": "分布式工程"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-engineering/cache.md",
+          "title": "分布式缓存",
+          "route": "/distributed-system-engineering/cache.html",
+          "group": "distributed-system-engineering",
+          "words": 549,
+          "order": 21,
+          "trail": [
+            "分布式工程"
+          ],
+          "groupName": "分布式工程"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-engineering/session.md",
+          "title": "分布式会话",
+          "route": "/distributed-system-engineering/session.html",
+          "group": "distributed-system-engineering",
+          "words": 5,
+          "order": 22,
+          "trail": [
+            "分布式工程"
+          ],
+          "groupName": "分布式工程"
+        },
+        {
+          "type": "article",
+          "filePath": "distributed-system-engineering/cron.md",
+          "title": "分布式任务调度",
+          "route": "/distributed-system-engineering/cron.html",
+          "group": "distributed-system-engineering",
+          "words": 379,
+          "order": 23,
+          "trail": [
+            "分布式工程"
+          ],
+          "groupName": "分布式工程"
+        }
+      ],
+      "articleCount": 5,
+      "words": 5662,
+      "firstRoute": "/distributed-system-engineering/uniqueid.html"
+    },
+    {
+      "key": "3-云原生架构",
+      "name": "云原生架构",
+      "children": [
+        {
+          "type": "article",
+          "filePath": "cloudnative/summary.md",
+          "title": "总览",
+          "route": "/cloudnative/summary.html",
+          "group": "cloudnative",
+          "words": 865,
+          "order": 24,
+          "trail": [
+            "云原生架构"
+          ],
+          "groupName": "云原生架构"
+        },
+        {
+          "type": "group",
+          "text": "什么是云原生",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "cloudnative/architecture/architecture.md",
+              "title": "分布式系统的演进",
+              "route": "/cloudnative/architecture/architecture.html",
+              "group": "cloudnative",
+              "words": 1746,
+              "order": 25,
+              "trail": [
+                "云原生架构",
+                "什么是云原生"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/architecture/definition.md",
+              "title": "云原生的定义",
+              "route": "/cloudnative/architecture/definition.html",
+              "group": "cloudnative",
+              "words": 1116,
+              "order": 26,
+              "trail": [
+                "云原生架构",
+                "什么是云原生"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/architecture/pass.md",
+              "title": "云原生平台的构建",
+              "route": "/cloudnative/architecture/pass.html",
+              "group": "cloudnative",
+              "words": 315,
+              "order": 27,
+              "trail": [
+                "云原生架构",
+                "什么是云原生"
+              ],
+              "groupName": "云原生架构"
+            }
+          ],
+          "articleCount": 3,
+          "words": 3177,
+          "firstRoute": "/cloudnative/architecture/architecture.html"
+        },
+        {
+          "type": "group",
+          "text": "不可变基础设施",
+          "children": [
+            {
+              "type": "group",
+              "text": "容器",
+              "children": [
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/container/docker-namespace.md",
+                  "title": "容器基础技术：namespace",
+                  "route": "/cloudnative/container/docker-namespace.html",
+                  "group": "cloudnative",
+                  "words": 6414,
+                  "order": 28,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "容器"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/container/docker-cgroups.md",
+                  "title": "容器基础技术：cgroups",
+                  "route": "/cloudnative/container/docker-cgroups.html",
+                  "group": "cloudnative",
+                  "words": 2305,
+                  "order": 29,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "容器"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/container/docker-filesystem.md",
+                  "title": "容器基础技术：文件系统",
+                  "route": "/cloudnative/container/docker-filesystem.html",
+                  "group": "cloudnative",
+                  "words": 165,
+                  "order": 30,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "容器"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/container/docker-devicemapper.md",
+                  "title": "容器基础技术：devicemapper",
+                  "route": "/cloudnative/container/docker-devicemapper.html",
+                  "group": "cloudnative",
+                  "words": 7,
+                  "order": 31,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "容器"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/container/docker.md",
+                  "title": "Docker 最佳实践",
+                  "route": "/cloudnative/container/docker.html",
+                  "group": "cloudnative",
+                  "words": 1033,
+                  "order": 32,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "容器"
+                  ],
+                  "groupName": "云原生架构"
+                }
+              ],
+              "articleCount": 5,
+              "words": 9924,
+              "firstRoute": "/cloudnative/container/docker-namespace.html"
+            },
+            {
+              "type": "group",
+              "text": "Kubernetes",
+              "children": [
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/architecture.md",
+                  "title": "整体架构",
+                  "route": "/cloudnative/kubernetes/architecture.html",
+                  "group": "cloudnative",
+                  "words": 2629,
+                  "order": 33,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/pod.md",
+                  "title": "Pod 那些事",
+                  "route": "/cloudnative/kubernetes/pod.html",
+                  "group": "cloudnative",
+                  "words": 5022,
+                  "order": 34,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/controller.md",
+                  "title": "控制器对象",
+                  "route": "/cloudnative/kubernetes/controller.html",
+                  "group": "cloudnative",
+                  "words": 7211,
+                  "order": 35,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/config.md",
+                  "title": "配置管理对象",
+                  "route": "/cloudnative/kubernetes/config.html",
+                  "group": "cloudnative",
+                  "words": 1084,
+                  "order": 36,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/network.md",
+                  "title": "网络原理",
+                  "route": "/cloudnative/kubernetes/network.html",
+                  "group": "cloudnative",
+                  "words": 15813,
+                  "order": 37,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/storage.md",
+                  "title": "存储原理",
+                  "route": "/cloudnative/kubernetes/storage.html",
+                  "group": "cloudnative",
+                  "words": 5921,
+                  "order": 38,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/scheduler.md",
+                  "title": "调度原理",
+                  "route": "/cloudnative/kubernetes/scheduler.html",
+                  "group": "cloudnative",
+                  "words": 4712,
+                  "order": 39,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/security.md",
+                  "title": "安全机制",
+                  "route": "/cloudnative/kubernetes/security.html",
+                  "group": "cloudnative",
+                  "words": 10721,
+                  "order": 40,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/application.md",
+                  "title": "应用封装与扩展",
+                  "route": "/cloudnative/kubernetes/application.html",
+                  "group": "cloudnative",
+                  "words": 6151,
+                  "order": 41,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/kubernetes/monitoring.md",
+                  "title": "集群监控与 debug",
+                  "route": "/cloudnative/kubernetes/monitoring.html",
+                  "group": "cloudnative",
+                  "words": 3832,
+                  "order": 42,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "Kubernetes"
+                  ],
+                  "groupName": "云原生架构"
+                }
+              ],
+              "articleCount": 10,
+              "words": 63096,
+              "firstRoute": "/cloudnative/kubernetes/architecture.html"
+            },
+            {
+              "type": "group",
+              "text": "服务网格",
+              "children": [
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/servicemesh/communication.md",
+                  "title": "服务通信的演进",
+                  "route": "/cloudnative/servicemesh/communication.html",
+                  "group": "cloudnative",
+                  "words": 2876,
+                  "order": 43,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "服务网格"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/servicemesh/servicemesh.md",
+                  "title": "服务网格产品与生态",
+                  "route": "/cloudnative/servicemesh/servicemesh.html",
+                  "group": "cloudnative",
+                  "words": 9,
+                  "order": 44,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "服务网格"
+                  ],
+                  "groupName": "云原生架构"
+                },
+                {
+                  "type": "article",
+                  "filePath": "cloudnative/servicemesh/design.md",
+                  "title": "服务网格的设计",
+                  "route": "/cloudnative/servicemesh/design.html",
+                  "group": "cloudnative",
+                  "words": 7,
+                  "order": 45,
+                  "trail": [
+                    "云原生架构",
+                    "不可变基础设施",
+                    "服务网格"
+                  ],
+                  "groupName": "云原生架构"
+                }
+              ],
+              "articleCount": 3,
+              "words": 2892,
+              "firstRoute": "/cloudnative/servicemesh/communication.html"
+            }
+          ],
+          "articleCount": 18,
+          "words": 75912,
+          "firstRoute": "/cloudnative/container/docker-namespace.html"
+        },
+        {
+          "type": "group",
+          "text": "服务治理",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "cloudnative/service/dependency.md",
+              "title": "服务依赖管理",
+              "route": "/cloudnative/service/dependency.html",
+              "group": "cloudnative",
+              "words": 499,
+              "order": 46,
+              "trail": [
+                "云原生架构",
+                "服务治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/service/stack.md",
+              "title": "服务整栈编排",
+              "route": "/cloudnative/service/stack.html",
+              "group": "cloudnative",
+              "words": 1101,
+              "order": 47,
+              "trail": [
+                "云原生架构",
+                "服务治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/service/discovery.md",
+              "title": "服务注册与发现",
+              "route": "/cloudnative/service/discovery.html",
+              "group": "cloudnative",
+              "words": 414,
+              "order": 48,
+              "trail": [
+                "云原生架构",
+                "服务治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/service/lifecycle.md",
+              "title": "服务生命周期管理",
+              "route": "/cloudnative/service/lifecycle.html",
+              "group": "cloudnative",
+              "words": 8,
+              "order": 49,
+              "trail": [
+                "云原生架构",
+                "服务治理"
+              ],
+              "groupName": "云原生架构"
+            }
+          ],
+          "articleCount": 4,
+          "words": 2022,
+          "firstRoute": "/cloudnative/service/dependency.html"
+        },
+        {
+          "type": "group",
+          "text": "流量治理",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "cloudnative/traffic/overview.md",
+              "title": "流量分发",
+              "route": "/cloudnative/traffic/overview.html",
+              "group": "cloudnative",
+              "words": 4,
+              "order": 50,
+              "trail": [
+                "云原生架构",
+                "流量治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/traffic/routing.md",
+              "title": "流量路由",
+              "route": "/cloudnative/traffic/routing.html",
+              "group": "cloudnative",
+              "words": 4,
+              "order": 51,
+              "trail": [
+                "云原生架构",
+                "流量治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/traffic/resilience.md",
+              "title": "容错设计",
+              "route": "/cloudnative/traffic/resilience.html",
+              "group": "cloudnative",
+              "words": 4,
+              "order": 52,
+              "trail": [
+                "云原生架构",
+                "流量治理"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/traffic/publish.md",
+              "title": "流量发布",
+              "route": "/cloudnative/traffic/publish.html",
+              "group": "cloudnative",
+              "words": 4,
+              "order": 53,
+              "trail": [
+                "云原生架构",
+                "流量治理"
+              ],
+              "groupName": "云原生架构"
+            }
+          ],
+          "articleCount": 4,
+          "words": 16,
+          "firstRoute": "/cloudnative/traffic/overview.html"
+        },
+        {
+          "type": "group",
+          "text": "可观测性",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "cloudnative/observability/definition.md",
+              "title": "什么是可观测性",
+              "route": "/cloudnative/observability/definition.html",
+              "group": "cloudnative",
+              "words": 881,
+              "order": 54,
+              "trail": [
+                "云原生架构",
+                "可观测性"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/observability/metrics.md",
+              "title": "指标",
+              "route": "/cloudnative/observability/metrics.html",
+              "group": "cloudnative",
+              "words": 1985,
+              "order": 55,
+              "trail": [
+                "云原生架构",
+                "可观测性"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/observability/logging.md",
+              "title": "日志",
+              "route": "/cloudnative/observability/logging.html",
+              "group": "cloudnative",
+              "words": 2668,
+              "order": 56,
+              "trail": [
+                "云原生架构",
+                "可观测性"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/observability/trace.md",
+              "title": "链路追踪",
+              "route": "/cloudnative/observability/trace.html",
+              "group": "cloudnative",
+              "words": 4783,
+              "order": 57,
+              "trail": [
+                "云原生架构",
+                "可观测性"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/observability/monitoring.md",
+              "title": "全栈监控系统架构",
+              "route": "/cloudnative/observability/monitoring.html",
+              "group": "cloudnative",
+              "words": 4829,
+              "order": 58,
+              "trail": [
+                "云原生架构",
+                "可观测性"
+              ],
+              "groupName": "云原生架构"
+            }
+          ],
+          "articleCount": 5,
+          "words": 15146,
+          "firstRoute": "/cloudnative/observability/definition.html"
+        },
+        {
+          "type": "group",
+          "text": "DevOps",
+          "children": [
+            {
+              "type": "article",
+              "filePath": "cloudnative/devops/devops.md",
+              "title": "打造企业 DevOps 文化",
+              "route": "/cloudnative/devops/devops.html",
+              "group": "cloudnative",
+              "words": 2430,
+              "order": 59,
+              "trail": [
+                "云原生架构",
+                "DevOps"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/devops/gitflow.md",
+              "title": "软件开发工作流",
+              "route": "/cloudnative/devops/gitflow.html",
+              "group": "cloudnative",
+              "words": 2953,
+              "order": 60,
+              "trail": [
+                "云原生架构",
+                "DevOps"
+              ],
+              "groupName": "云原生架构"
+            },
+            {
+              "type": "article",
+              "filePath": "cloudnative/devops/cicd.md",
+              "title": "CI/CD 最佳实践",
+              "route": "/cloudnative/devops/cicd.html",
+              "group": "cloudnative",
+              "words": 3683,
+              "order": 61,
+              "trail": [
+                "云原生架构",
+                "DevOps"
+              ],
+              "groupName": "云原生架构"
+            }
+          ],
+          "articleCount": 3,
+          "words": 9066,
+          "firstRoute": "/cloudnative/devops/devops.html"
+        }
+      ],
+      "articleCount": 38,
+      "words": 106204,
+      "firstRoute": "/cloudnative/summary.html"
+    },
+    {
+      "key": "4-何以为架构师",
+      "name": "何以为架构师",
+      "children": [
+        {
+          "type": "article",
+          "filePath": "end/responsibility.md",
+          "title": "架构师的职责",
+          "route": "/end/responsibility.html",
+          "group": "end",
+          "words": 1493,
+          "order": 62,
+          "trail": [
+            "何以为架构师"
+          ],
+          "groupName": "何以为架构师"
+        },
+        {
+          "type": "article",
+          "filePath": "end/perspective.md",
+          "title": "架构师的视角",
+          "route": "/end/perspective.html",
+          "group": "end",
+          "words": 259,
+          "order": 63,
+          "trail": [
+            "何以为架构师"
+          ],
+          "groupName": "何以为架构师"
+        },
+        {
+          "type": "article",
+          "filePath": "end/learn.md",
+          "title": "架构师的学习",
+          "route": "/end/learn.html",
+          "group": "end",
+          "words": 1444,
+          "order": 64,
+          "trail": [
+            "何以为架构师"
+          ],
+          "groupName": "何以为架构师"
+        }
+      ],
+      "articleCount": 3,
+      "words": 3196,
+      "firstRoute": "/end/responsibility.html"
+    }
+  ],
+  "articles": [
+    {
+      "filePath": "common-design/modeling/history.md",
+      "title": "DBMS 的演进",
+      "route": "/common-design/modeling/history.html",
+      "group": "common-design",
+      "words": 2552,
+      "order": 0,
+      "trail": [
+        "通用设计",
+        "数据建模"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/modeling/innodb.md",
+      "title": "InnoDB 工作原理",
+      "route": "/common-design/modeling/innodb.html",
+      "group": "common-design",
+      "words": 2738,
+      "order": 1,
+      "trail": [
+        "通用设计",
+        "数据建模"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/modeling/index.md",
+      "title": "索引设计与优化",
+      "route": "/common-design/modeling/index.html",
+      "group": "common-design",
+      "words": 2552,
+      "order": 2,
+      "trail": [
+        "通用设计",
+        "数据建模"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/modeling/newsql.md",
+      "title": "NewSQL 工作原理",
+      "route": "/common-design/modeling/newsql.html",
+      "group": "common-design",
+      "words": 2530,
+      "order": 3,
+      "trail": [
+        "通用设计",
+        "数据建模"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/api/rest.md",
+      "title": "Web API 设计规范",
+      "route": "/common-design/api/rest.html",
+      "group": "common-design",
+      "words": 5537,
+      "order": 4,
+      "trail": [
+        "通用设计",
+        "API 设计"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/api/webapi.md",
+      "title": "API 路径设计哪家强",
+      "route": "/common-design/api/webapi.html",
+      "group": "common-design",
+      "words": 2954,
+      "order": 5,
+      "trail": [
+        "通用设计",
+        "API 设计"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/testing/unit-test.md",
+      "title": "单元测试",
+      "route": "/common-design/testing/unit-test.html",
+      "group": "common-design",
+      "words": 3259,
+      "order": 6,
+      "trail": [
+        "通用设计",
+        "软件测试"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/testing/function.md",
+      "title": "功能测试",
+      "route": "/common-design/testing/function.html",
+      "group": "common-design",
+      "words": 4,
+      "order": 7,
+      "trail": [
+        "通用设计",
+        "软件测试"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/testing/contract.md",
+      "title": "契约测试",
+      "route": "/common-design/testing/contract.html",
+      "group": "common-design",
+      "words": 4,
+      "order": 8,
+      "trail": [
+        "通用设计",
+        "软件测试"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/testing/load.md",
+      "title": "全链路压测",
+      "route": "/common-design/testing/load.html",
+      "group": "common-design",
+      "words": 5,
+      "order": 9,
+      "trail": [
+        "通用设计",
+        "软件测试"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/security/roadmap.md",
+      "title": "方案概览",
+      "route": "/common-design/security/roadmap.html",
+      "group": "common-design",
+      "words": 2930,
+      "order": 10,
+      "trail": [
+        "通用设计",
+        "认证与授权"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/security/auth.md",
+      "title": "身份认证",
+      "route": "/common-design/security/auth.html",
+      "group": "common-design",
+      "words": 2038,
+      "order": 11,
+      "trail": [
+        "通用设计",
+        "认证与授权"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "common-design/security/permission.md",
+      "title": "授权管理",
+      "route": "/common-design/security/permission.html",
+      "group": "common-design",
+      "words": 2319,
+      "order": 12,
+      "trail": [
+        "通用设计",
+        "认证与授权"
+      ],
+      "groupName": "通用设计"
+    },
+    {
+      "filePath": "distributed-system-theory/overview.md",
+      "title": "概述",
+      "route": "/distributed-system-theory/overview.html",
+      "group": "distributed-system-theory",
+      "words": 2,
+      "order": 13,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-theory/sharding.md",
+      "title": "数据分区",
+      "route": "/distributed-system-theory/sharding.html",
+      "group": "distributed-system-theory",
+      "words": 4,
+      "order": 14,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-theory/replication.md",
+      "title": "数据复制",
+      "route": "/distributed-system-theory/replication.html",
+      "group": "distributed-system-theory",
+      "words": 4,
+      "order": 15,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-theory/transaction.md",
+      "title": "分布式事务",
+      "route": "/distributed-system-theory/transaction.html",
+      "group": "distributed-system-theory",
+      "words": 5,
+      "order": 16,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-theory/clock.md",
+      "title": "分布式时钟",
+      "route": "/distributed-system-theory/clock.html",
+      "group": "distributed-system-theory",
+      "words": 5,
+      "order": 17,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-theory/consistency-consensus.md",
+      "title": "一致性与共识",
+      "route": "/distributed-system-theory/consistency-consensus.html",
+      "group": "distributed-system-theory",
+      "words": 6,
+      "order": 18,
+      "trail": [
+        "分布式理论"
+      ],
+      "groupName": "分布式理论"
+    },
+    {
+      "filePath": "distributed-system-engineering/uniqueid.md",
+      "title": "分布式 ID",
+      "route": "/distributed-system-engineering/uniqueid.html",
+      "group": "distributed-system-engineering",
+      "words": 1825,
+      "order": 19,
+      "trail": [
+        "分布式工程"
+      ],
+      "groupName": "分布式工程"
+    },
+    {
+      "filePath": "distributed-system-engineering/lock.md",
+      "title": "分布式锁",
+      "route": "/distributed-system-engineering/lock.html",
+      "group": "distributed-system-engineering",
+      "words": 2904,
+      "order": 20,
+      "trail": [
+        "分布式工程"
+      ],
+      "groupName": "分布式工程"
+    },
+    {
+      "filePath": "distributed-system-engineering/cache.md",
+      "title": "分布式缓存",
+      "route": "/distributed-system-engineering/cache.html",
+      "group": "distributed-system-engineering",
+      "words": 549,
+      "order": 21,
+      "trail": [
+        "分布式工程"
+      ],
+      "groupName": "分布式工程"
+    },
+    {
+      "filePath": "distributed-system-engineering/session.md",
+      "title": "分布式会话",
+      "route": "/distributed-system-engineering/session.html",
+      "group": "distributed-system-engineering",
+      "words": 5,
+      "order": 22,
+      "trail": [
+        "分布式工程"
+      ],
+      "groupName": "分布式工程"
+    },
+    {
+      "filePath": "distributed-system-engineering/cron.md",
+      "title": "分布式任务调度",
+      "route": "/distributed-system-engineering/cron.html",
+      "group": "distributed-system-engineering",
+      "words": 379,
+      "order": 23,
+      "trail": [
+        "分布式工程"
+      ],
+      "groupName": "分布式工程"
+    },
+    {
+      "filePath": "cloudnative/summary.md",
+      "title": "总览",
+      "route": "/cloudnative/summary.html",
+      "group": "cloudnative",
+      "words": 865,
+      "order": 24,
+      "trail": [
+        "云原生架构"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/architecture/architecture.md",
+      "title": "分布式系统的演进",
+      "route": "/cloudnative/architecture/architecture.html",
+      "group": "cloudnative",
+      "words": 1746,
+      "order": 25,
+      "trail": [
+        "云原生架构",
+        "什么是云原生"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/architecture/definition.md",
+      "title": "云原生的定义",
+      "route": "/cloudnative/architecture/definition.html",
+      "group": "cloudnative",
+      "words": 1116,
+      "order": 26,
+      "trail": [
+        "云原生架构",
+        "什么是云原生"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/architecture/pass.md",
+      "title": "云原生平台的构建",
+      "route": "/cloudnative/architecture/pass.html",
+      "group": "cloudnative",
+      "words": 315,
+      "order": 27,
+      "trail": [
+        "云原生架构",
+        "什么是云原生"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/container/docker-namespace.md",
+      "title": "容器基础技术：namespace",
+      "route": "/cloudnative/container/docker-namespace.html",
+      "group": "cloudnative",
+      "words": 6414,
+      "order": 28,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "容器"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/container/docker-cgroups.md",
+      "title": "容器基础技术：cgroups",
+      "route": "/cloudnative/container/docker-cgroups.html",
+      "group": "cloudnative",
+      "words": 2305,
+      "order": 29,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "容器"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/container/docker-filesystem.md",
+      "title": "容器基础技术：文件系统",
+      "route": "/cloudnative/container/docker-filesystem.html",
+      "group": "cloudnative",
+      "words": 165,
+      "order": 30,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "容器"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/container/docker-devicemapper.md",
+      "title": "容器基础技术：devicemapper",
+      "route": "/cloudnative/container/docker-devicemapper.html",
+      "group": "cloudnative",
+      "words": 7,
+      "order": 31,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "容器"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/container/docker.md",
+      "title": "Docker 最佳实践",
+      "route": "/cloudnative/container/docker.html",
+      "group": "cloudnative",
+      "words": 1033,
+      "order": 32,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "容器"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/architecture.md",
+      "title": "整体架构",
+      "route": "/cloudnative/kubernetes/architecture.html",
+      "group": "cloudnative",
+      "words": 2629,
+      "order": 33,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/pod.md",
+      "title": "Pod 那些事",
+      "route": "/cloudnative/kubernetes/pod.html",
+      "group": "cloudnative",
+      "words": 5022,
+      "order": 34,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/controller.md",
+      "title": "控制器对象",
+      "route": "/cloudnative/kubernetes/controller.html",
+      "group": "cloudnative",
+      "words": 7211,
+      "order": 35,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/config.md",
+      "title": "配置管理对象",
+      "route": "/cloudnative/kubernetes/config.html",
+      "group": "cloudnative",
+      "words": 1084,
+      "order": 36,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/network.md",
+      "title": "网络原理",
+      "route": "/cloudnative/kubernetes/network.html",
+      "group": "cloudnative",
+      "words": 15813,
+      "order": 37,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/storage.md",
+      "title": "存储原理",
+      "route": "/cloudnative/kubernetes/storage.html",
+      "group": "cloudnative",
+      "words": 5921,
+      "order": 38,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/scheduler.md",
+      "title": "调度原理",
+      "route": "/cloudnative/kubernetes/scheduler.html",
+      "group": "cloudnative",
+      "words": 4712,
+      "order": 39,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/security.md",
+      "title": "安全机制",
+      "route": "/cloudnative/kubernetes/security.html",
+      "group": "cloudnative",
+      "words": 10721,
+      "order": 40,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/application.md",
+      "title": "应用封装与扩展",
+      "route": "/cloudnative/kubernetes/application.html",
+      "group": "cloudnative",
+      "words": 6151,
+      "order": 41,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/kubernetes/monitoring.md",
+      "title": "集群监控与 debug",
+      "route": "/cloudnative/kubernetes/monitoring.html",
+      "group": "cloudnative",
+      "words": 3832,
+      "order": 42,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "Kubernetes"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/servicemesh/communication.md",
+      "title": "服务通信的演进",
+      "route": "/cloudnative/servicemesh/communication.html",
+      "group": "cloudnative",
+      "words": 2876,
+      "order": 43,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "服务网格"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/servicemesh/servicemesh.md",
+      "title": "服务网格产品与生态",
+      "route": "/cloudnative/servicemesh/servicemesh.html",
+      "group": "cloudnative",
+      "words": 9,
+      "order": 44,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "服务网格"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/servicemesh/design.md",
+      "title": "服务网格的设计",
+      "route": "/cloudnative/servicemesh/design.html",
+      "group": "cloudnative",
+      "words": 7,
+      "order": 45,
+      "trail": [
+        "云原生架构",
+        "不可变基础设施",
+        "服务网格"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/service/dependency.md",
+      "title": "服务依赖管理",
+      "route": "/cloudnative/service/dependency.html",
+      "group": "cloudnative",
+      "words": 499,
+      "order": 46,
+      "trail": [
+        "云原生架构",
+        "服务治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/service/stack.md",
+      "title": "服务整栈编排",
+      "route": "/cloudnative/service/stack.html",
+      "group": "cloudnative",
+      "words": 1101,
+      "order": 47,
+      "trail": [
+        "云原生架构",
+        "服务治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/service/discovery.md",
+      "title": "服务注册与发现",
+      "route": "/cloudnative/service/discovery.html",
+      "group": "cloudnative",
+      "words": 414,
+      "order": 48,
+      "trail": [
+        "云原生架构",
+        "服务治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/service/lifecycle.md",
+      "title": "服务生命周期管理",
+      "route": "/cloudnative/service/lifecycle.html",
+      "group": "cloudnative",
+      "words": 8,
+      "order": 49,
+      "trail": [
+        "云原生架构",
+        "服务治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/traffic/overview.md",
+      "title": "流量分发",
+      "route": "/cloudnative/traffic/overview.html",
+      "group": "cloudnative",
+      "words": 4,
+      "order": 50,
+      "trail": [
+        "云原生架构",
+        "流量治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/traffic/routing.md",
+      "title": "流量路由",
+      "route": "/cloudnative/traffic/routing.html",
+      "group": "cloudnative",
+      "words": 4,
+      "order": 51,
+      "trail": [
+        "云原生架构",
+        "流量治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/traffic/resilience.md",
+      "title": "容错设计",
+      "route": "/cloudnative/traffic/resilience.html",
+      "group": "cloudnative",
+      "words": 4,
+      "order": 52,
+      "trail": [
+        "云原生架构",
+        "流量治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/traffic/publish.md",
+      "title": "流量发布",
+      "route": "/cloudnative/traffic/publish.html",
+      "group": "cloudnative",
+      "words": 4,
+      "order": 53,
+      "trail": [
+        "云原生架构",
+        "流量治理"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/observability/definition.md",
+      "title": "什么是可观测性",
+      "route": "/cloudnative/observability/definition.html",
+      "group": "cloudnative",
+      "words": 881,
+      "order": 54,
+      "trail": [
+        "云原生架构",
+        "可观测性"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/observability/metrics.md",
+      "title": "指标",
+      "route": "/cloudnative/observability/metrics.html",
+      "group": "cloudnative",
+      "words": 1985,
+      "order": 55,
+      "trail": [
+        "云原生架构",
+        "可观测性"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/observability/logging.md",
+      "title": "日志",
+      "route": "/cloudnative/observability/logging.html",
+      "group": "cloudnative",
+      "words": 2668,
+      "order": 56,
+      "trail": [
+        "云原生架构",
+        "可观测性"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/observability/trace.md",
+      "title": "链路追踪",
+      "route": "/cloudnative/observability/trace.html",
+      "group": "cloudnative",
+      "words": 4783,
+      "order": 57,
+      "trail": [
+        "云原生架构",
+        "可观测性"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/observability/monitoring.md",
+      "title": "全栈监控系统架构",
+      "route": "/cloudnative/observability/monitoring.html",
+      "group": "cloudnative",
+      "words": 4829,
+      "order": 58,
+      "trail": [
+        "云原生架构",
+        "可观测性"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/devops/devops.md",
+      "title": "打造企业 DevOps 文化",
+      "route": "/cloudnative/devops/devops.html",
+      "group": "cloudnative",
+      "words": 2430,
+      "order": 59,
+      "trail": [
+        "云原生架构",
+        "DevOps"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/devops/gitflow.md",
+      "title": "软件开发工作流",
+      "route": "/cloudnative/devops/gitflow.html",
+      "group": "cloudnative",
+      "words": 2953,
+      "order": 60,
+      "trail": [
+        "云原生架构",
+        "DevOps"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "cloudnative/devops/cicd.md",
+      "title": "CI/CD 最佳实践",
+      "route": "/cloudnative/devops/cicd.html",
+      "group": "cloudnative",
+      "words": 3683,
+      "order": 61,
+      "trail": [
+        "云原生架构",
+        "DevOps"
+      ],
+      "groupName": "云原生架构"
+    },
+    {
+      "filePath": "end/responsibility.md",
+      "title": "架构师的职责",
+      "route": "/end/responsibility.html",
+      "group": "end",
+      "words": 1493,
+      "order": 62,
+      "trail": [
+        "何以为架构师"
+      ],
+      "groupName": "何以为架构师"
+    },
+    {
+      "filePath": "end/perspective.md",
+      "title": "架构师的视角",
+      "route": "/end/perspective.html",
+      "group": "end",
+      "words": 259,
+      "order": 63,
+      "trail": [
+        "何以为架构师"
+      ],
+      "groupName": "何以为架构师"
+    },
+    {
+      "filePath": "end/learn.md",
+      "title": "架构师的学习",
+      "route": "/end/learn.html",
+      "group": "end",
+      "words": 1444,
+      "order": 64,
+      "trail": [
+        "何以为架构师"
+      ],
+      "groupName": "何以为架构师"
+    }
+  ]
+}
