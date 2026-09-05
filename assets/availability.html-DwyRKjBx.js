@@ -1,0 +1,1 @@
+import{_ as t,o as r,c as i,b as a,d as l}from"./app-BTSCaQUU.js";const n={};function o(s,e){return r(),i("div",null,[...e[0]||(e[0]=[a("h1",{id:"高可用系统设计原则",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#高可用系统设计原则","aria-hidden":"true"},"#"),l(" 高可用系统设计原则")],-1)])])}const d=t(n,[["render",o],["__file","availability.html.vue"]]);export{d as default};

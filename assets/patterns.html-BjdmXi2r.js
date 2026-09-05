@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as n,b as t,d as s}from"./app-BTSCaQUU.js";const o={};function c(d,e){return r(),n("div",null,[...e[0]||(e[0]=[t("h1",{id:"弹力设计模式",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#弹力设计模式","aria-hidden":"true"},"#"),s(" 弹力设计模式")],-1)])])}const _=a(o,[["render",c],["__file","patterns.html.vue"]]);export{_ as default};

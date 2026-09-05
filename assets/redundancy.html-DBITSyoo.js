@@ -1,0 +1,1 @@
+import{_ as r,o as n,c as t,b as a,d}from"./app-BTSCaQUU.js";const c={};function o(s,e){return n(),t("div",null,[...e[0]||(e[0]=[a("h1",{id:"服务冗余",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#服务冗余","aria-hidden":"true"},"#"),d(" 服务冗余")],-1)])])}const _=r(c,[["render",o],["__file","redundancy.html.vue"]]);export{_ as default};

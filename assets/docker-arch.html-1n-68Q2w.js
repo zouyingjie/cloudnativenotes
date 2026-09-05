@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,b as r,d as o}from"./app-BTSCaQUU.js";const d={};function n(s,e){return t(),c("div",null,[...e[0]||(e[0]=[r("h1",{id:"容器架构的发展",tabindex:"-1"},[r("a",{class:"header-anchor",href:"#容器架构的发展","aria-hidden":"true"},"#"),o(" 容器架构的发展")],-1)])])}const _=a(d,[["render",n],["__file","docker-arch.html.vue"]]);export{_ as default};

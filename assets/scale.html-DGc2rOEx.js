@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as s,b as a,d as c}from"./app-BTSCaQUU.js";const n={};function o(d,e){return t(),s("div",null,[...e[0]||(e[0]=[a("h1",{id:"服务的弹性伸缩",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#服务的弹性伸缩","aria-hidden":"true"},"#"),c(" 服务的弹性伸缩")],-1)])])}const _=r(n,[["render",o],["__file","scale.html.vue"]]);export{_ as default};

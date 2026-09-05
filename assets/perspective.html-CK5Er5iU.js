@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-002b734a","path":"/end/perspective.html","title":"架构师的视角","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"end/perspective.md","readingTime":{"minutes":0.86,"words":259}}');export{e as data};

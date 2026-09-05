@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-17d839f6","path":"/cloudnative/service/scale.html","title":"服务的弹性伸缩","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"cloudnative/service/scale.md","readingTime":{"minutes":0.02,"words":7}}');export{e as data};

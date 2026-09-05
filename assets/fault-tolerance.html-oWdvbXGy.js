@@ -1,0 +1,1 @@
+import{_ as t,o as r,c as n,b as a,d as o}from"./app-BTSCaQUU.js";const c={};function l(s,e){return r(),n("div",null,[...e[0]||(e[0]=[a("h1",{id:"服务容错",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#服务容错","aria-hidden":"true"},"#"),o(" 服务容错")],-1)])])}const f=t(c,[["render",l],["__file","fault-tolerance.html.vue"]]);export{f as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as l,c as o,b as n}from"./app-BTSCaQUU.js";const r={};function s(c,e){return l(),o("div",null,[...e[0]||(e[0]=[n("p",null,"服务治理包括服务注册与发现、服务配置管理、服务依赖管理、服务拆分、服务冗余、生命周期管理、状态管理等。",-1),n("p",null,"本部分内容对服务注册与发现、配置管理、",-1)])])}const a=t(r,[["render",s],["__file","index.html.vue"]]);export{a as default};

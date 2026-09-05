@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-307837a6","path":"/service/02.service-config.html","title":"服务配置管理","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"service/02.service-config.md","readingTime":{"minutes":0.02,"words":6}}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e822c08c","path":"/common-design/testing/function.html","title":"功能测试","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"common-design/testing/function.md","readingTime":{"minutes":0.01,"words":4}}');export{e as data};

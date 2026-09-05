@@ -1,0 +1,1 @@
+import{_ as t,o as r,c as n,b as a,d as o}from"./app-BTSCaQUU.js";const s={};function c(d,e){return r(),n("div",null,[...e[0]||(e[0]=[a("h1",{id:"分布式事务",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#分布式事务","aria-hidden":"true"},"#"),o(" 分布式事务")],-1)])])}const l=t(s,[["render",c],["__file","transaction.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+import{_ as r,o as t,c,b as a,d as l}from"./app-BTSCaQUU.js";const n={};function o(s,e){return t(),c("div",null,[...e[0]||(e[0]=[a("h1",{id:"服务生命周期管理",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#服务生命周期管理","aria-hidden":"true"},"#"),l(" 服务生命周期管理")],-1)])])}const i=r(n,[["render",o],["__file","lifecycle.html.vue"]]);export{i as default};

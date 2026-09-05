@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-20482260","path":"/service/06.service-health.html","title":"服务生命周期与健康状态","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"service/06.service-health.md","readingTime":{"minutes":0.04,"words":11}}');export{e as data};

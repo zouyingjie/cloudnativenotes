@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e658552c","path":"/cloudnative/container/","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"cloudnative/container/README.md","readingTime":{"minutes":0.12,"words":37}}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f7a2e828","path":"/common-design/testing/load.html","title":"全链路压测","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"common-design/testing/load.md","readingTime":{"minutes":0.02,"words":5}}');export{e as data};

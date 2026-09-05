@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1a079280","path":"/common-design/testing/contract.html","title":"契约测试","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"common-design/testing/contract.md","readingTime":{"minutes":0.01,"words":4}}');export{t as data};

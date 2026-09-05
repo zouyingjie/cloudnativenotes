@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,b as r,d as n}from"./app-BTSCaQUU.js";const o={};function s(i,e){return t(),c("div",null,[...e[0]||(e[0]=[r("h1",{id:"服务配置管理",tabindex:"-1"},[r("a",{class:"header-anchor",href:"#服务配置管理","aria-hidden":"true"},"#"),n(" 服务配置管理")],-1)])])}const _=a(o,[["render",s],["__file","02.service-config.html.vue"]]);export{_ as default};

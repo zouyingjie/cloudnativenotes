@@ -1,0 +1,1 @@
+import{_ as a,o as r,c,b as t,d as n}from"./app-BTSCaQUU.js";const o={};function s(d,e){return r(),c("div",null,[...e[0]||(e[0]=[t("h1",{id:"契约测试",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#契约测试","aria-hidden":"true"},"#"),n(" 契约测试")],-1)])])}const _=a(o,[["render",s],["__file","contract.html.vue"]]);export{_ as default};

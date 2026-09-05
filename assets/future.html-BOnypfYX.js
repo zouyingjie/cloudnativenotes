@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,b as r,d as n}from"./app-BTSCaQUU.js";const o={};function c(d,e){return a(),s("div",null,[...e[0]||(e[0]=[r("h1",{id:"k8s-的演进与未来",tabindex:"-1"},[r("a",{class:"header-anchor",href:"#k8s-的演进与未来","aria-hidden":"true"},"#"),n(" K8s 的演进与未来")],-1)])])}const l=t(o,[["render",c],["__file","future.html.vue"]]);export{l as default};

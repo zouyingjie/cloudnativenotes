@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as n,b as a,d as s}from"./app-BTSCaQUU.js";const d={};function o(c,e){return t(),n("div",null,[...e[0]||(e[0]=[a("h1",{id:"数据分区",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#数据分区","aria-hidden":"true"},"#"),s(" 数据分区")],-1)])])}const l=r(d,[["render",o],["__file","sharding.html.vue"]]);export{l as default};

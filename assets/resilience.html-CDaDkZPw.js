@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d5c55f0c","path":"/cloudnative/traffic/resilience.html","title":"容错设计","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"cloudnative/traffic/resilience.md","readingTime":{"minutes":0.01,"words":4}}');export{e as data};

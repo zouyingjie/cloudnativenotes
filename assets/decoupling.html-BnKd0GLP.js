@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as n,b as a,d as o}from"./app-BTSCaQUU.js";const c={};function d(s,e){return t(),n("div",null,[...e[0]||(e[0]=[a("h1",{id:"服务解耦",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#服务解耦","aria-hidden":"true"},"#"),o(" 服务解耦")],-1)])])}const i=r(c,[["render",d],["__file","decoupling.html.vue"]]);export{i as default};

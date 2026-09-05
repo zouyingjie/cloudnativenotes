@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as s,b as a,d as n}from"./app-BTSCaQUU.js";const o={};function c(d,e){return t(),s("div",null,[...e[0]||(e[0]=[a("h1",{id:"流量发布",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#流量发布","aria-hidden":"true"},"#"),n(" 流量发布")],-1)])])}const i=r(o,[["render",c],["__file","publish.html.vue"]]);export{i as default};

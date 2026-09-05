@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9e82c57e","path":"/cloudnative/traffic/routing.html","title":"流量路由","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"cloudnative/traffic/routing.md","readingTime":{"minutes":0.01,"words":4}}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as r,o as t,c,b as a,d as s}from"./app-BTSCaQUU.js";const d={};function n(o,e){return t(),c("div",null,[...e[0]||(e[0]=[a("h1",{id:"流量调度",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#流量调度","aria-hidden":"true"},"#"),s(" 流量调度")],-1)])])}const l=r(d,[["render",n],["__file","08.traffic-schedule.html.vue"]]);export{l as default};

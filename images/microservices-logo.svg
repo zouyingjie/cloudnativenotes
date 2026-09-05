@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 外圆环与装饰 -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#6B46C1" stroke-width="4"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#6B46C1" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- 内部装饰圆环 -->
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.3"/>
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.3"/>
+  
+  <!-- 中心服务组 -->
+  <circle cx="100" cy="100" r="15" fill="#F97316"/>
+  <circle cx="100" cy="100" r="10" fill="#FB923C"/>
+  <path d="M92 100a8 8 0 0116 0" fill="none" stroke="#FDBA74" stroke-width="2"/>
+  
+  <!-- 主要微服务节点 -->
+  <circle cx="140" cy="100" r="12" fill="#2563EB"/>
+  <circle cx="140" cy="100" r="8" fill="#3B82F6"/>
+  <circle cx="60" cy="100" r="12" fill="#16A34A"/>
+  <circle cx="60" cy="100" r="8" fill="#22C55E"/>
+  <circle cx="100" cy="140" r="12" fill="#DC2626"/>
+  <circle cx="100" cy="140" r="8" fill="#EF4444"/>
+  <circle cx="100" cy="60" r="12" fill="#CA8A04"/>
+  <circle cx="100" cy="60" r="8" fill="#EAB308"/>
+  
+  <!-- 次要服务节点 -->
+  <circle cx="130" cy="130" r="8" fill="#9333EA"/>
+  <circle cx="130" cy="130" r="5" fill="#A855F7"/>
+  <circle cx="70" cy="130" r="8" fill="#BE185D"/>
+  <circle cx="70" cy="130" r="5" fill="#EC4899"/>
+  <circle cx="130" cy="70" r="8" fill="#0891B2"/>
+  <circle cx="130" cy="70" r="5" fill="#06B6D4"/>
+  <circle cx="70" cy="70" r="8" fill="#9A3412"/>
+  <circle cx="70" cy="70" r="5" fill="#EA580C"/>
+  
+  <!-- 主要连接线 -->
+  <line x1="115" y1="100" x2="128" y2="100" stroke="#2563EB" stroke-width="2"/>
+  <line x1="85" y1="100" x2="72" y2="100" stroke="#16A34A" stroke-width="2"/>
+  <line x1="100" y1="115" x2="100" y2="128" stroke="#DC2626" stroke-width="2"/>
+  <line x1="100" y1="85" x2="100" y2="72" stroke="#CA8A04" stroke-width="2"/>
+  
+  <!-- 次要连接线 -->
+  <line x1="110" y1="110" x2="122" y2="122" stroke="#9333EA" stroke-width="1"/>
+  <line x1="90" y1="110" x2="78" y2="122" stroke="#BE185D" stroke-width="1"/>
+  <line x1="110" y1="90" x2="122" y2="78" stroke="#0891B2" stroke-width="1"/>
+  <line x1="90" y1="90" x2="78" y2="78" stroke="#9A3412" stroke-width="1"/>
+  
+  <!-- 装饰性圆弧 -->
+  <path d="M 160 100 A 60 60 0 0 1 100 160" fill="none" stroke="#6B46C1" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M 40 100 A 60 60 0 0 1 100 40" fill="none" stroke="#6B46C1" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- 小装饰点 -->
+  <circle cx="150" cy="100" r="2" fill="#6B46C1"/>
+  <circle cx="50" cy="100" r="2" fill="#6B46C1"/>
+  <circle cx="100" cy="150" r="2" fill="#6B46C1"/>
+  <circle cx="100" cy="50" r="2" fill="#6B46C1"/>
+</svg>

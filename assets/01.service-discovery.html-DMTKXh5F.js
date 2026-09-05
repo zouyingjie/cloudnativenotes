@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-04dad9ca","path":"/service/01.service-discovery.html","title":"服务注册与发现","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"service/01.service-discovery.md","readingTime":{"minutes":0.02,"words":7}}');export{e as data};

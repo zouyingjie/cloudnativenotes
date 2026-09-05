@@ -1,0 +1,1 @@
+import{_ as n,o as t,c as a,b as s,d as c}from"./app-BTSCaQUU.js";const o={};function r(d,e){return t(),a("div",null,[...e[0]||(e[0]=[s("h1",{id:"一致性与共识",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#一致性与共识","aria-hidden":"true"},"#"),c(" 一致性与共识")],-1)])])}const l=n(o,[["render",r],["__file","consistency-consensus.html.vue"]]);export{l as default};

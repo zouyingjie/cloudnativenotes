@@ -1,0 +1,1 @@
+import{_ as n,o as t,c as o,b as r}from"./app-BTSCaQUU.js";const l={};function s(c,e){return t(),o("div",null,[...e[0]||(e[0]=[r("p",null,"容器技术是云原生的基石，通过容器将应用与运行环境打包，实现应用的快速部署与迁移。",-1)])])}const a=n(l,[["render",s],["__file","index.html.vue"]]);export{a as default};

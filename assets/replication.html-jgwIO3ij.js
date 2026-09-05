@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as n,b as a,d as o}from"./app-BTSCaQUU.js";const c={};function s(i,e){return t(),n("div",null,[...e[0]||(e[0]=[a("h1",{id:"数据复制",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#数据复制","aria-hidden":"true"},"#"),o(" 数据复制")],-1)])])}const l=r(c,[["render",s],["__file","replication.html.vue"]]);export{l as default};

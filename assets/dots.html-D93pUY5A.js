@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-73e6dc42","path":"/end/dots.html","title":"那些平淡的一天","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1788629470000,"contributors":[{"name":"zouyingjie","email":"yingjiezou1@gmail.com","commits":1}]},"filePathRelative":"end/dots.md","readingTime":{"minutes":1.33,"words":400}}');export{e as data};
