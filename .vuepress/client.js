@@ -4,7 +4,7 @@ import {
   sidebarItemsSymbol,
   useThemeLocaleData,
 } from '@vuepress/theme-default/lib/client/composables/index.js'
-import { computed, provide } from 'vue'
+import { computed, nextTick, provide } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import Layout from './layouts/layout.vue'
 import ArticleIndex from './components/ArticleIndex.vue'
@@ -124,7 +124,19 @@ export default defineClientConfig({
   setup () {
     setupStableSidebarItems()
   },
-  enhance ({ app }) {
+  enhance ({ app, router }) {
+    // The reading layout has no page transition. Keep anchors clear of the fixed navbar.
+    router.options.scrollBehavior = async (to, from, savedPosition) => {
+      if (savedPosition) return savedPosition
+      await nextTick()
+      if (to.hash) {
+        let id = to.hash.slice(1)
+        try { id = decodeURIComponent(id) } catch { /* Keep malformed hashes literal. */ }
+        const el = document.getElementById(id)
+        if (el) return { el, top: (document.querySelector('.navbar')?.getBoundingClientRect().height ?? 68) + 24, behavior: 'auto' }
+      }
+      return to.path !== from.path ? { top: 0, behavior: 'auto' } : false
+    }
     app.component('ArticleIndex', ArticleIndex)
   },
   layouts: {

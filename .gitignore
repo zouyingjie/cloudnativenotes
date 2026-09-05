@@ -20,3 +20,6 @@ dist
 .cache
 chrome
 
+
+# Generated full-text search index
+.vuepress/public/search-index.json

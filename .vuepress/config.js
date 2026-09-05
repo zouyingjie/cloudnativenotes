@@ -58,11 +58,16 @@ export default defineUserConfig({
 
     logo: '/images/microservices-logo.svg',
 
-    lastUpdated: '最后更新',
+    lastUpdated: true,
+    lastUpdatedText: '最后更新',
+    contributorsText: '贡献者',
+    toggleSidebar: '全书章节',
+    toggleColorMode: '切换日夜主题',
+    sidebarDepth: 0,
     smoothScroll: true,
 
-    editLinks: true,
-    editLinkText: '在GitHub中编辑',
+    editLink: true,
+    editLinkText: '在 GitHub 中编辑',
 
     repo: 'https://github.com/zouyingjie/cloudnativenotes',
     repoLabel: 'GitHub',
@@ -70,10 +75,7 @@ export default defineUserConfig({
       text: '首页',
       link: '/'
     },
-    // {
-    //   text: '作者',
-    //   link: '/about.md'
-    // },
+    { text: '目录', link: '/end/toc.html' },
     {
       text: '讨论',
       link: 'https://github.com/zouyingjie/cloudnativenotes/discussions'

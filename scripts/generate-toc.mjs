@@ -1,11 +1,15 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import MarkdownIt from 'markdown-it'
 import { sidebar } from '../.vuepress/sidebar.mjs'
 
 const rootDir = process.cwd()
 const outputFile = 'end/toc.md'
 const dataFile = '.vuepress/data/article-index.json'
 const skipFiles = new Set([outputFile])
+const markdown = new MarkdownIt({ html: true })
+const searchEntries = []
+const plainText = (body) => markdown.utils.unescapeAll(markdown.render(body).replace(/<!--[\s\S]*?-->/gu, '').replace(/<[^>]*>/gu, ' ')).replace(/\s+/gu, ' ').trim()
 
 const stripFrontmatter = (content) => {
   if (!content.startsWith('---\n')) return { frontmatter: '', body: content }
@@ -71,8 +75,8 @@ const toRoute = (filePath) => {
   if (filePath === 'README.md') return '/'
 
   const withoutExt = filePath.replace(/\.md$/u, '')
-  if (withoutExt.endsWith('/README')) {
-    return `/${withoutExt.slice(0, -'/README'.length)}/`
+  if (/\/(README|index)$/u.test(withoutExt)) {
+    return `/${withoutExt.replace(/\/(README|index)$/u, '')}/`
   }
 
   return `/${withoutExt}.html`
@@ -85,9 +89,14 @@ const readArticle = async (filePath, order, titleOverride = '') => {
   const { frontmatter, body } = stripFrontmatter(raw)
   const title = titleOverride || getFrontmatterTitle(frontmatter) || getMarkdownTitle(body, filePath)
 
+  const text = plainText(body)
+  const hasContent = plainText(body.replace(/^#{1,6}\s+.*$/gmu, '')).length > 0
+  if (hasContent) searchEntries.push({ filePath, title, route: toRoute(filePath), text })
+
   return {
     filePath,
     title,
+    hasContent,
     route: toRoute(filePath),
     group: getGroup(filePath),
     words: getWordNumber(body),
@@ -236,6 +245,7 @@ const buildToc = async () => {
   }
 
   const articles = builder.articles
+  const readyCount = articles.filter((article) => article.hasContent).length
   const totalWords = articles.reduce((total, article) => total + article.words, 0)
   const topicCount = sections.reduce((total, section) => total + countGroups(section.children), 0)
 
@@ -257,9 +267,13 @@ const buildToc = async () => {
   await mkdir(path.dirname(path.join(rootDir, dataFile)), { recursive: true })
   await writeFile(
     path.join(rootDir, dataFile),
-    `${JSON.stringify({ totalWords, articleCount: articles.length, topicCount, sections, articles }, null, 2)}\n`,
+    `${JSON.stringify({ totalWords, articleCount: articles.length, readyCount, topicCount, sections, articles }, null, 2)}\n`,
     'utf8',
   )
+  await readArticle('README.md', -1)
+  const searchData = searchEntries.map((entry) => ({ ...entry, trail: articles.find((article) => article.filePath === entry.filePath)?.trail ?? [] }))
+  await mkdir(path.join(rootDir, '.vuepress/public'), { recursive: true })
+  await writeFile(path.join(rootDir, '.vuepress/public/search-index.json'), JSON.stringify(searchData), 'utf8')
   await writeFile(path.join(rootDir, outputFile), `${lines.join('\n')}\n`, 'utf8')
 }
 

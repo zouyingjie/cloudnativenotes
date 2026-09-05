@@ -2,7 +2,7 @@
   <div class="article-index">
     <section class="index-tools" aria-label="筛选文章">
       <p class="index-stats">
-        {{ formatNumber(data.articleCount) }} 篇文章 · {{ formatNumber(data.totalWords) }} 字 · {{ formatNumber(data.topicCount) }} 个主题
+        {{ formatNumber(data.readyCount) }} 篇正文 · {{ data.articleCount - data.readyCount }} 篇待完善 · {{ formatNumber(data.totalWords) }} 字
       </p>
 
       <label class="search-box">
@@ -14,7 +14,8 @@
         >
       </label>
 
-      <div class="result-meta">
+      <label class="ready-filter"><input v-model="readyOnly" type="checkbox">只看已有正文</label>
+      <div class="result-meta" aria-live="polite">
         <span>{{ resultSummary }}</span>
         <button v-if="hasActiveFilter" type="button" @click="resetFilters">清除</button>
       </div>
@@ -52,7 +53,7 @@
               <RouterLink class="article-title" :to="row.node.route">
                 <span>{{ row.node.title }}</span>
               </RouterLink>
-              <small>{{ formatNumber(row.node.words) }} 字</small>
+              <small :class="{ 'draft-status': !row.node.hasContent }">{{ row.node.hasContent ? `${formatNumber(row.node.words)} 字` : '待完善' }}</small>
             </div>
           </li>
         </ol>
@@ -70,6 +71,7 @@ import { computed, ref } from 'vue'
 import data from '../data/article-index.json'
 
 const query = ref('')
+const readyOnly = ref(false)
 
 const formatNumber = (value) => new Intl.NumberFormat('zh-CN').format(value ?? 0)
 const normalizeText = (value) => String(value ?? '').toLowerCase()
@@ -107,11 +109,12 @@ const matchesQuery = (values) => {
 }
 
 const filterNodes = (nodes, inheritedMatch = false) => {
-  if (normalizedQuery.value === '') return nodes
+  if (normalizedQuery.value === '' && !readyOnly.value) return nodes
 
   return nodes
     .map((node) => {
       if (node.type === 'article') {
+        if (readyOnly.value && !node.hasContent) return null
         const articleMatch = inheritedMatch || matchesQuery([
           node.title,
           node.filePath,
@@ -187,14 +190,15 @@ const visibleArticleCount = computed(() => {
 })
 
 const resultSummary = computed(() => {
-  if (normalizedQuery.value === '') return '全部文章'
+  if (normalizedQuery.value === '' && !readyOnly.value) return '全部章节'
   return `显示 ${visibleArticleCount.value} 篇，${visibleTopicCount.value} 个主题`
 })
 
-const hasActiveFilter = computed(() => query.value !== '')
+const hasActiveFilter = computed(() => query.value !== '' || readyOnly.value)
 
 const resetFilters = () => {
   query.value = ''
+  readyOnly.value = false
 }
 </script>
 
@@ -215,7 +219,7 @@ const resetFilters = () => {
 
 .index-tools {
   display: grid;
-  grid-template-columns: max-content minmax(14rem, 24rem) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: .75rem;
   align-items: center;
   margin-bottom: 1.45rem;
@@ -224,11 +228,12 @@ const resetFilters = () => {
 }
 
 .index-stats {
+  grid-column: 1 / -1;
   margin: 0;
   color: var(--index-subtle);
   font-size: .9rem;
   line-height: 1.5;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .search-box {
@@ -250,11 +255,21 @@ const resetFilters = () => {
   font-family: inherit;
 }
 
+.ready-filter {
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+  font-size: .85rem;
+  color: var(--index-subtle);
+}
+.ready-filter input { accent-color: var(--index-accent); }
+.draft-status { font-style: italic; }
 .result-meta {
   display: flex;
   gap: .6rem;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  grid-column: 1 / -1;
   min-height: 34px;
   color: var(--index-subtle);
   font-size: .86rem;
@@ -359,7 +374,7 @@ const resetFilters = () => {
 }
 
 .toc-entry.is-article {
-  min-height: 1.38rem;
+  min-height: 2.2rem;
 }
 
 .toc-entry.is-group.is-depth-1 {
@@ -402,6 +417,7 @@ const resetFilters = () => {
   }
 
   .index-stats {
+  grid-column: 1 / -1;
     white-space: normal;
   }
 
